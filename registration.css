@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.card{
+    opacity: 25px;
+    width: 600px;
+    margin-top: 90px;
+    background-color: rgba(0, 0, 0, 0.822);
+    opacity: 0.8;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 380px;
+}
+.card-header{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:   rgb(180, 32, 32);
+    padding-top: 25px;
+    text-transform: capitalize;
+}
+.avatar img
+{
+  width: 130px;
+  position: absolute;
+  left: calc(50% - 60px);
+  margin-top: -80px;
+  margin-left: -5px;
+}
+.form-select{
+    width: 275px;
+    height: 35px;
+}
+
+.btn {
+    margin-left: 200px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: rgb(180, 32, 32);
+    color: white;
+    border:rgb(180, 32, 32);
+    font-weight: bold;}
+span{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.bck{
+    width: 50%;
+    height: 100px;
+}
+.form-check-label{
+    color:white;
+    font-weight: bold;
+}
+
